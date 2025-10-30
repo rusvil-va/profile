@@ -76,21 +76,22 @@ Right now, I’m deepening my skills in:
 
 ## 🗂️ Repository Structure
 
-/(root)
-│ inbound-ai-agent-vapi.md
-│ ai-call-agent-retell.md
-│ seo-content-generator.md
-│ ghl-integrations.md
-│
-├─ /apps-script-projects/
-│ ghl-webapp-ui.md
-│ crm-syncs.md
-│
-└─ /integrations/
-ghl-to-openai.md
-ghl-to-claude.md
-ghl-to-vapi.md
-ghl-to-retell.md
+**Root**
+- [inbound-ai-agent-vapi.md](inbound-ai-agent-vapi.md)
+- [ai-call-agent-retell.md](ai-call-agent-retell.md)
+- [seo-content-generator.md](seo-content-generator.md)
+- [ghl-integrations.md](ghl-integrations.md)
+
+**Apps Script Projects**
+- [ghl-webapp-ui.md](apps-script-projects/ghl-webapp-ui.md)
+- [crm-syncs.md](apps-script-projects/crm-syncs.md)
+
+**Integrations**
+- [ghl-to-openai.md](integrations/ghl-to-openai.md)
+- [ghl-to-claude.md](integrations/ghl-to-claude.md)
+- [ghl-to-vapi.md](integrations/ghl-to-vapi.md)
+- [ghl-to-retell.md](integrations/ghl-to-retell.md)
+
 
 
 ---
