@@ -1,63 +1,78 @@
-# 🤖 AI & Automation Portfolio – Russel Villota
+# 🚀 Automation & AI Portfolio
 
-Hi, I’m **Russel Villota**, an **AI and automations builder** with a **Bachelor’s degree in Computer Science** and a self-taught journey into connecting systems using APIs, code, and logic.
+Hi, I’m **Russel Villota** — an Automation Specialist and AI enthusiast with a background in **Computer Science** and hands-on experience integrating CRMs, APIs, and AI platforms.  
 
-I started with **GoHighLevel automations**, then learned to integrate **third-party tools** and **AI platforms** — first using Zapier, then directly through **Google Apps Script**, **custom code**, and now **n8n**.  
-My approach blends **API documentation literacy**, **code-based logic**, and **LLM integration** — not just using AI for answers, but using it as a **coding reference and test generator** when building real-world solutions.
-
----
-
-## 🧠 Core Skills
-- **Automation Platforms:** GoHighLevel, n8n, Google Apps Script, Zapier  
-- **AI Integrations:** OpenAI API (ChatGPT, Custom GPTs, Actions), Claude / Claude Code / Anthropic API  
-- **APIs:** Proficient in reading and implementing API docs (OAuth2, pagination, HMAC, rate limits)  
-- **Programming:** JavaScript / TypeScript, Apps Script (custom UIs + backend logic)  
-- **Integrations:** Salesforce, LeadPerfection, ActiProspect, Twilio, Google Workspace  
-- **Development Practices:** Code-first integrations, reference-based AI usage, GitHub versioning  
+I started with **GoHighLevel (GHL)** automations, expanded into **third-party integrations**, and gradually built a foundation in **custom API development**, **Apps Script**, and **n8n**.  
+Everything you’ll find here is something I learned, built, debugged, and iterated on myself.
 
 ---
 
-## 🚀 Highlighted Projects
+## 🔧 Tech Stack & Tools
 
-### 📞 1. Inbound AI Call Agent (n8n + Vapi + Retell + GoHighLevel)
-**Goal:** Create an automated inbound call system using AI voice (Vapi + Retell) that logs calls and updates leads in GoHighLevel.  
-**Stack:** n8n, Vapi API, Retell API, GoHighLevel v2  
-**Highlights:**  
-- Used FunctionItem nodes to parse JSON transcripts  
-- Error branches + retries for call logging  
-- API-first design: built integration directly from Vapi & Retell documentation  
-- Verified data flow via n8n webhook inspection
-
-📁 [workflow export](./workflows/inbound_ai_agent.json)
+- **Automation Platforms:** n8n, Zapier, GoHighLevel, Make  
+- **Programming:** JavaScript, Google Apps Script, basic Python  
+- **APIs & Integrations:** OpenAI API, Anthropic (Claude + Claude Code), Vapi, Retell, Google APIs (Sheets, Docs, Drive, Workspace, Marketplace), Salesforce, LeadPerfection, ActiveProspect  
+- **AI Platforms:** ChatGPT (Custom GPTs + Actions Schema), Claude Code, Anthropic API  
+- **Version Control:** GitHub  
+- **Other Tools:** Postman, Notion, VideoAsk, Monday.com  
 
 ---
 
-### 🧾 2. SEO Content Generator (n8n + OpenAI + Google)
-**Goal:** Generate SEO-optimized content drafts automatically from keyword lists in Google Sheets.  
-**Stack:** n8n, OpenAI API, Google Sheets, Google Drive  
-**Highlights:**  
-- Enforced JSON schema for GPT-4 output  
-- Stored markdown drafts directly to Drive  
-- Used Apps Script for file automation before integrating into n8n  
-- Cost-aware workflow with simple prompt validation  
+## 🧠 Highlights
 
-📁 [workflow export](./workflows/seo_content_generator.json)
+### 🔹 1. GHL Automations & Integrations
+Automated marketing, CRM, and lead management processes across GoHighLevel and external tools — with logic syncing between systems.
+
+- GHL → 3rd-party app → GHL loops  
+- Triggered workflows via Webhooks, API calls, or Apps Script bridges  
+- CRM integrations with Salesforce, LeadPerfection, and ActiveProspect  
+
+### 🔹 2. Google Apps Script Projects
+Developed scripts and lightweight UIs connected to Google Sheets and external APIs.  
+- Apps Script ↔ GHL integration for client onboarding  
+- Apps Script web app UI hosted on GitHub  
+- CRM syncs and automation monitoring dashboards  
+
+### 🔹 3. n8n Workflows
+Explored custom nodes, API authentication, and AI-assisted flows:
+- **Inbound AI Agent (Vapi + GHL)** — connects via Google Workspace and Marketplace APIs for call routing and logging  
+- **AI Call Agent (Retell + GHL)** — handles inbound call logic and post-call data sync to GHL  
+- **SEO Content Generator** — multi-API workflow combining:
+  - OpenAI API and Anthropic API for AI content generation  
+  - Google Docs + Sheets API for storing and organizing content  
+  - Google Drive API for saving Markdown outputs  
+  - Custom JavaScript nodes for logic, formatting, and document automation  
+
+### 🔹 4. API Integrations
+I actively read **API documentation** rather than relying solely on AI output — it’s more reliable for debugging and ensuring schema accuracy.  
+
+I’ve built:
+- GHL → OpenAI (Custom GPT + Actions Schema)  
+- GHL → Claude → GHL  
+- GHL → Google → Drive → Markdown  
+- GHL ↔ Vapi ↔ Retell integrations for AI voice automation  
 
 ---
 
-### ⚙️ Code Snippet
-[`deduplicate_contacts.js`](./snippets/deduplicate_contacts.js)  
-> Cleans and merges GoHighLevel contacts during syncs.  
-> Ensures idempotent updates and reduces redundant tags.
+## ⚙️ Points of Improvement
+
+I’m continuously expanding my knowledge in:
+- **Pagination handling** for large data sets  
+- **HMAC signature authentication** for secure API calls  
+- **Rate-limiting strategies** for high-volume workflows  
+
+Whenever I find something I don’t know — I **learn it**, **build it**, and **improve it**.
 
 ---
 
-## 🪴 About This Repo
-This portfolio shows how I **taught myself end-to-end automation engineering**, combining:
-- a **Computer Science background**,  
-- **API-first mindset**,  
-- and **hands-on implementation of AI integrations** across multiple systems.
+## 🧩 Current Focus
 
-I prefer reading official docs, experimenting in code, and using AI tools as coding partners — not shortcuts.
+Right now, I’m deepening my skills in:
+- Advanced n8n automation logic and error handling  
+- Structured AI integrations using OpenAI and Anthropic APIs  
+- Creating clean and reusable documentation for each workflow  
 
-**Contact:** data@roaimastermind.com
+---
+
+## 🗂️ Repository Structure
+
