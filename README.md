@@ -1,57 +1,63 @@
 # 🤖 AI & Automation Portfolio – Russel Villota
 
-Hi, I’m **Russel Villota**, a self-taught **AI and automation builder** with a **Bachelor’s degree in Computer Science** and hands-on experience integrating CRMs, APIs, and AI platforms.  
+Hi, I’m **Russel Villota**, an **AI and automations builder** with a **Bachelor’s degree in Computer Science** and a self-taught journey into connecting systems using APIs, code, and logic.
 
-I started with **GoHighLevel automations**, then moved into **API-level integrations**, connecting third-party apps directly or via tools like **Zapier**, **Google Apps Script**, and more recently **n8n**, where I now design multi-step orchestration flows that bridge systems and AI models.
+I started with **GoHighLevel automations**, then learned to integrate **third-party tools** and **AI platforms** — first using Zapier, then directly through **Google Apps Script**, **custom code**, and now **n8n**.  
+My approach blends **API documentation literacy**, **code-based logic**, and **LLM integration** — not just using AI for answers, but using it as a **coding reference and test generator** when building real-world solutions.
 
 ---
 
 ## 🧠 Core Skills
-- **Automation:** GoHighLevel, n8n, Zapier, Apps Script  
+- **Automation Platforms:** GoHighLevel, n8n, Google Apps Script, Zapier  
+- **AI Integrations:** OpenAI API (ChatGPT, Custom GPTs, Actions), Claude / Claude Code / Anthropic API  
+- **APIs:** Proficient in reading and implementing API docs (OAuth2, pagination, HMAC, rate limits)  
+- **Programming:** JavaScript / TypeScript, Apps Script (custom UIs + backend logic)  
 - **Integrations:** Salesforce, LeadPerfection, ActiProspect, Twilio, Google Workspace  
-- **AI:** OpenAI, Vapi, Retell – AI voice & chat agents  
-- **Programming:** JavaScript, TypeScript, Python basics, Apps Script  
-- **Infrastructure:** Docker (compose, healthchecks), Postgres basics  
-- **Other Tools:** GitHub, Google Cloud, Markdown pipelines
+- **Development Practices:** Code-first integrations, reference-based AI usage, GitHub versioning  
 
 ---
 
 ## 🚀 Highlighted Projects
 
-### 📞 1. Inbound Call AI Agent (n8n + Vapi + GoHighLevel)
-**Goal:** Handle inbound customer calls using an AI voice agent (Vapi/Retell), automatically log call details into GoHighLevel, and update lead status.  
-**Stack:** n8n, Vapi, Retell, GoHighLevel v2  
-**Highlights:**
-- Webhook + Function nodes to parse JSON transcripts
-- Retry + DLQ setup for missed API calls
-- Idempotency keys to prevent duplicate contact creation  
-- Logs stored in Google Sheets for transparency  
+### 📞 1. Inbound AI Call Agent (n8n + Vapi + Retell + GoHighLevel)
+**Goal:** Create an automated inbound call system using AI voice (Vapi + Retell) that logs calls and updates leads in GoHighLevel.  
+**Stack:** n8n, Vapi API, Retell API, GoHighLevel v2  
+**Highlights:**  
+- Used FunctionItem nodes to parse JSON transcripts  
+- Error branches + retries for call logging  
+- API-first design: built integration directly from Vapi & Retell documentation  
+- Verified data flow via n8n webhook inspection
 
 📁 [workflow export](./workflows/inbound_ai_agent.json)
 
 ---
 
 ### 🧾 2. SEO Content Generator (n8n + OpenAI + Google)
-**Goal:** Automate SEO content creation using keyword inputs from Google Sheets, generate draft articles with GPT-4, and output markdown files to Google Drive.  
+**Goal:** Generate SEO-optimized content drafts automatically from keyword lists in Google Sheets.  
 **Stack:** n8n, OpenAI API, Google Sheets, Google Drive  
-**Highlights:**
-- JSON schema validation for GPT output  
-- Markdown conversion and Drive file creation  
-- Cost tracking for API usage in structured logs  
-- Used error branches and repair loops for resilience  
+**Highlights:**  
+- Enforced JSON schema for GPT-4 output  
+- Stored markdown drafts directly to Drive  
+- Used Apps Script for file automation before integrating into n8n  
+- Cost-aware workflow with simple prompt validation  
 
 📁 [workflow export](./workflows/seo_content_generator.json)
 
 ---
 
 ### ⚙️ Code Snippet
-[`deduplicate_contacts.js`](./snippets/deduplicate_contacts.js)
+[`deduplicate_contacts.js`](./snippets/deduplicate_contacts.js)  
 > Cleans and merges GoHighLevel contacts during syncs.  
 > Ensures idempotent updates and reduces redundant tags.
 
 ---
 
 ## 🪴 About This Repo
-This portfolio demonstrates how I’ve **grown from platform-based automations (GoHighLevel)** to building **custom, API-driven and AI-powered automations using n8n** — integrating **voice, LLM, and CRM systems** end-to-end.
+This portfolio shows how I **taught myself end-to-end automation engineering**, combining:
+- a **Computer Science background**,  
+- **API-first mindset**,  
+- and **hands-on implementation of AI integrations** across multiple systems.
 
-If you’d like to know more, reach me at **data@roaimastermind.com**.
+I prefer reading official docs, experimenting in code, and using AI tools as coding partners — not shortcuts.
+
+**Contact:** data@roaimastermind.com
