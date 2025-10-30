@@ -76,3 +76,32 @@ Right now, I’m deepening my skills in:
 
 ## 🗂️ Repository Structure
 
+/ (root)
+inbound-ai-agent-vapi.md
+ai-call-agent-retell.md
+seo-content-generator.md
+ghl-integrations.md
+
+/apps-script-projects/
+ghl-webapp-ui.md
+crm-syncs.md
+
+/integrations/
+ghl-to-openai.md
+ghl-to-claude.md
+ghl-to-vapi.md
+ghl-to-retell.md
+
+
+---
+
+## 💬 Contact
+
+📧 data@roaimastermind.com  
+🌐 [GitHub Profile](https://github.com/rusvil-va)  
+
+---
+
+> “If I know it, I build it.  
+> If I don’t, I learn it — then build it.”
+
